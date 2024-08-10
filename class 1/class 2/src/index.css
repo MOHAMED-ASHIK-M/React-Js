@@ -1,0 +1,122 @@
+#root{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+   
+}
+.img{
+    border: white 2px solid;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student{
+    background-color: rgb(132, 129, 124);
+    padding-top: 30px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.75);
+    
+    max-width: 100%;
+    width: 350px;
+    position: relative;
+    
+    border-radius: 5px;
+
+    
+    
+}
+
+
+
+.btn1{
+    color: white;
+    background-color: blue;
+    padding: 7px 14px;
+    border-style: none;
+    border-radius: 2px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+
+
+.btn2{
+    color: white;
+    background-color:transparent;
+    padding: 7px 14px;
+    border-style: none;
+    border-radius: 2px;
+    margin-right:10px;
+    border: blue solid 2px;
+}
+
+
+.skills{
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: left;
+    margin: 0;
+    padding:0 ;
+
+
+    
+}
+
+.skills ul{
+    list-style: none;
+}
+
+.skills ul li{
+    border: 1px solid #595180;
+    display: inline-block;
+    border-radius: 2px;
+    padding:7px;
+    margin: 0 7px 7px 0;
+    
+}
+
+.online{
+    background-color: greenyellow;
+  }
+  
+  .offline{
+    background-color: #febb0b;
+  }
+  
